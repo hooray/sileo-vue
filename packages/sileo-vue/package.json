@@ -3,6 +3,11 @@
 	"version": "0.1.2",
 	"description": "An opinionated, physics based toast notification library for Vue 3. Port of sileo.",
 	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/hooray/sileo-vue",
+		"directory": "packages/sileo-vue"
+	},
 	"type": "module",
 	"exports": {
 		".": {
