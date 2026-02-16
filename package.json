@@ -1,0 +1,12 @@
+{
+	"name": "sileo-vue",
+	"type": "module",
+	"scripts": {
+		"dev": "pnpm -C playground dev",
+		"build": "pnpm -C packages/sileo-vue build",
+		"build:playground": "pnpm -C playground build"
+	},
+	"engines": {
+		"node": ">=18"
+	}
+}

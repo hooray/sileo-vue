@@ -1,0 +1,41 @@
+{
+	"name": "sileo-vue",
+	"version": "0.0.1",
+	"description": "An opinionated, physics based toast notification library for Vue 3. Port of sileo.",
+	"license": "MIT",
+	"type": "module",
+	"exports": {
+		".": {
+			"import": {
+				"types": "./dist/index.d.ts",
+				"default": "./dist/sileo-vue.js"
+			},
+			"require": {
+				"types": "./dist/index.d.ts",
+				"default": "./dist/sileo-vue.umd.cjs"
+			}
+		},
+		"./dist/style.css": "./dist/style.css"
+	},
+	"main": "./dist/sileo-vue.umd.cjs",
+	"module": "./dist/sileo-vue.js",
+	"types": "./dist/index.d.ts",
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"build": "vite build",
+		"dev": "vite build --watch"
+	},
+	"peerDependencies": {
+		"vue": ">=3.3"
+	},
+	"devDependencies": {
+		"@vitejs/plugin-vue": "^5.2.1",
+		"typescript": "^5.7.3",
+		"vite": "^6.1.0",
+		"vite-plugin-dts": "^4.5.0",
+		"vue": "^3.5.13",
+		"vue-tsc": "^2.2.0"
+	}
+}
