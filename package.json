@@ -8,7 +8,7 @@
 		"release": "bumpp -r"
 	},
 	"engines": {
-		"node": ">=18"
+		"node": ">=22"
 	},
 	"devDependencies": {
 		"bumpp": "^10.4.1"
